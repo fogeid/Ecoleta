@@ -1,0 +1,853 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+/* line 4, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 21, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 24, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 27, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 30, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+/* line 37, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+/* line 42, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+ins {
+  text-decoration: none;
+}
+
+/* line 45, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+/* line 50, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+/* line 4, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 21, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 24, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 27, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 30, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+/* line 37, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+/* line 42, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+ins {
+  text-decoration: none;
+}
+
+/* line 45, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+/* line 50, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 6, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+html {
+  background-color: #F0F0F5;
+}
+
+/* line 10, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+#page-home {
+  height: 100vh;
+  background: url("../img/home-background.svg") no-repeat;
+  background-position: left 35vw top 8vw;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 10, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+  #page-home {
+    background-position: 70vh;
+  }
+}
+
+/* line 19, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+.content {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 19, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+  .content {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* line 30, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+.header__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding-top: 50px;
+}
+
+/* line 36, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+.header__main .header__register a {
+  color: #322153;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 19px;
+  text-decoration: none;
+  display: flex;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 36, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+  .header__main .header__register a {
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* line 49, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+.header__main .header__register a span {
+  background-image: url("../img/log-in.svg");
+  width: 20px;
+  height: 20px;
+  display: flex;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 49, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+  .header__main .header__register a span {
+    width: 30px;
+  }
+}
+
+/* line 62, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+.main {
+  max-width: 560px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 62, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+  .main {
+    align-items: center;
+    margin-top: 50px;
+  }
+}
+
+/* line 73, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+.main .main__title {
+  font-size: 3.5rem;
+  color: #322153;
+}
+
+/* line 77, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+.main .main__description {
+  font-size: 1.2rem;
+  line-height: 38px;
+  margin-top: 24px;
+  color: #6C6C80;
+}
+
+/* line 83, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+.main .main__search {
+  width: 100%;
+  max-width: 360px;
+  height: 72px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  background-color: #34CB79;
+  transition: all .4s ease;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 83, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+  .main .main__search {
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+}
+
+/* line 98, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+.main .main__search:hover {
+  background-color: #2fb86e;
+}
+
+/* line 101, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+.main .main__search span {
+  width: 72px;
+  height: 72px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 110, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+.main .main__search span:after {
+  content: "";
+  background-image: url("../img/search.svg");
+  width: 20px;
+  height: 20px;
+}
+
+/* line 117, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+.main .main__search strong {
+  flex: 1;
+  color: white;
+  text-align: center;
+}
+
+/* line 126, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+#modal {
+  background-color: #0E0A14EF;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 400ms;
+}
+
+/* line 136, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+#modal .content {
+  color: #fff;
+  width: 420px;
+}
+
+/* line 139, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+#modal .content .modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+/* line 144, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+#modal .content .modal__header h1 {
+  color: #fff;
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+}
+
+/* line 149, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+#modal .content .modal__header a {
+  background-image: url("../img/x.svg");
+  width: 20px;
+  height: 20px;
+  display: flex;
+  font-size: 0.01px;
+}
+
+/* line 158, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+#modal .content .modal__form label {
+  font-size: .8rem;
+  line-height: 1rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* line 164, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+#modal .content .modal__form input {
+  flex: 1;
+  background-color: #F0F0F5;
+  border-radius: 8px 0 0 8px;
+  border: 0;
+  padding: 16px 24px;
+  font-size: 1rem;
+  color: #6C6C80;
+}
+
+/* line 173, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+#modal .content .modal__form button {
+  width: 72px;
+  height: 72px;
+  background-color: #34CB79;
+  border: 0;
+  border-radius: 0 8px 8px 0;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+/* line 181, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+#modal .content .modal__form button:hover {
+  background-color: #2fb86e;
+}
+
+/* line 186, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+#modal .content .modal__form .field {
+  display: flex;
+}
+
+/* line 193, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_home.scss */
+#modal.hide {
+  display: none;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+/* line 4, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 21, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 24, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 27, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 30, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+/* line 37, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+/* line 42, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+ins {
+  text-decoration: none;
+}
+
+/* line 45, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+/* line 50, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 6, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+html {
+  background-color: #F0F0F5;
+}
+
+/* line 10, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+#page-create-point {
+  width: 90%;
+  max-width: 1100px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+}
+
+/* line 15, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+#page-create-point .header__pcp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 48px;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 15, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+  #page-create-point .header__pcp {
+    flex-direction: column;
+  }
+}
+
+/* line 23, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+#page-create-point .header__pcp .header__register a {
+  color: #322153;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 19px;
+  text-decoration: none;
+  display: flex;
+}
+
+/* line 30, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+#page-create-point .header__pcp .header__register a span {
+  background-image: url("../img/arrow-left.svg");
+  width: 20px;
+  height: 24px;
+  display: flex;
+  margin-right: 16px;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 23, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+  #page-create-point .header__pcp .header__register a {
+    margin-top: 20px;
+  }
+}
+
+/* line 47, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.form__pcp {
+  background-color: #fff;
+  padding: 64px;
+  border-radius: 8px;
+  max-width: 730px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+/* line 55, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.form__pcp h1 {
+  font-size: 2rem;
+  color: #322153;
+}
+
+/* line 59, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.form__pcp fieldset {
+  margin-top: 64px;
+  border: 0;
+}
+
+/* line 62, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.form__pcp fieldset legend {
+  margin-bottom: 40px;
+}
+
+/* line 64, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.form__pcp fieldset legend h2 {
+  font-size: 1.5rem;
+  color: #322153;
+}
+
+/* line 70, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.form__pcp .field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+/* line 76, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.form__pcp .field + .field {
+  margin-left: 24px;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 76, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+  .form__pcp .field + .field {
+    margin-left: 0;
+  }
+}
+
+/* line 82, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.form__pcp .field-group {
+  display: flex;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 82, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+  .form__pcp .field-group {
+    flex-direction: column;
+  }
+}
+
+/* line 88, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.form__pcp label {
+  font-size: .8rem;
+  margin-bottom: 10px;
+  color: #6C6C80;
+}
+
+/* line 93, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.form__pcp input, .form__pcp select {
+  background-color: #F0F0F5;
+  border: 0;
+  padding: 16px 24px;
+  font-size: .8rem;
+  border-radius: 8px;
+  outline: none;
+}
+
+/* line 100, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.form__pcp input:focus, .form__pcp select:focus {
+  border: 1px solid #0E0A14;
+}
+
+/* line 104, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.form__pcp select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* line 109, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.form__pcp button {
+  width: 260px;
+  height: 56px;
+  background-color: #34CB79;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 0;
+  margin-top: 40px;
+  transition: all .4s ease;
+}
+
+/* line 120, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.form__pcp button:hover {
+  background-color: #2fb86e;
+}
+
+/* line 126, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.items-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 126, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+  .items-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* line 133, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.items-grid li {
+  background-color: #F0F0F5;
+  list-style: none;
+  border: 2px solid #F0F0F5;
+  height: 120px;
+  border-radius: 8px;
+  padding: 32px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 146, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.items-grid li span {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  color: #322153;
+  margin-top: 12px;
+}
+
+/* line 153, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.items-grid li img, .items-grid li span {
+  pointer-events: none;
+}
+
+/* line 157, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_create-point.scss */
+.items-grid li.selected {
+  background-color: #E1FAEC;
+  border: 2px solid #34cb79;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+/* line 4, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 21, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 24, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 27, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 30, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+/* line 37, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+/* line 42, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+ins {
+  text-decoration: none;
+}
+
+/* line 45, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+/* line 50, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 6, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_search-results.scss */
+html {
+  background-color: #F0F0F5;
+}
+
+/* line 11, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_search-results.scss */
+.body:after {
+  content: '';
+  position: fixed;
+  background-color: #fff;
+  top: 260px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* line 23, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_search-results.scss */
+#page-search-results {
+  width: 90%;
+  max-width: 1100px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+}
+
+/* line 28, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_search-results.scss */
+#page-search-results .header__psr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 48px;
+}
+
+/* line 33, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_search-results.scss */
+#page-search-results .header__psr .header__register a {
+  color: #322153;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 19px;
+  text-decoration: none;
+  display: flex;
+}
+
+/* line 43, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_search-results.scss */
+#page-search-results .header__psr .header__register a span {
+  background-image: url("../img/arrow-left.svg");
+  width: 20px;
+  height: 24px;
+  display: flex;
+  margin-right: 16px;
+}
+
+/* line 57, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_search-results.scss */
+main {
+  margin-top: 48px;
+}
+
+/* line 59, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_search-results.scss */
+main h4 {
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+
+/* line 63, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_search-results.scss */
+main .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 63, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_search-results.scss */
+  main .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* line 70, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_search-results.scss */
+main .cards img {
+  width: 100%;
+  height: 150px;
+  border-radius: 8px 8px 0 0;
+  object-fit: cover;
+}
+
+/* line 76, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_search-results.scss */
+main .cards h1 {
+  font-size: 2.2rem;
+  line-height: 41px;
+  color: #322153;
+}
+
+/* line 81, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_search-results.scss */
+main .cards h3 {
+  margin: 24px 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 34px;
+  color: #34CB79;
+}
+
+/* line 88, ../../Desktop/Ecoleta/Ecoleta/src/assets/css/scss/_search-results.scss */
+main .cards p {
+  font-size: 1rem;
+  line-height: 26px;
+  color: #6C6C80;
+}
+
+/*# sourceMappingURL=style.css.map */

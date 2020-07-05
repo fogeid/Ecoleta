@@ -1,0 +1,195 @@
+@import '_reset.scss';
+@import '_responsividade.scss';
+@import '_font.scss';
+@import '_colors.scss';
+
+html {
+    background-color: $color-background-primary;
+}
+
+#page-home {
+    height: 100vh;
+    background: url('../img/home-background.svg') no-repeat;
+    background-position: left 35vw top 8vw;
+    @include device(mobile) {
+        background-position: 70vh;
+    }
+}
+
+.content {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    font-family: $font;
+    @include device(mobile) {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.header__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 50px;
+    .header__register a {
+        color: $color-primary;
+        font-weight: bold;
+        font-size: 1rem;
+        line-height: 19px;
+        text-decoration: none;
+        display: flex;
+        @include device(mobile) {
+            position: absolute;
+            bottom: 18px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        span {            
+            background-image: url('../img/log-in.svg');
+            width: 20px;
+            height: 20px;
+            display: flex;
+            margin-right: 10px;
+            @include device(mobile) {
+                width: 30px;
+            }
+        }     
+    }
+}
+
+.main {
+    max-width: 560px;
+    flex: 1;        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    @include device(mobile) {
+        align-items: center;
+        margin-top: 50px;
+    }
+    .main__title {
+        font-size: 3.5rem;
+        color: $color-primary;
+    }
+    .main__description {
+        font-size: 1.2rem;
+        line-height: 38px;
+        margin-top: 24px;
+        color: $color-secondary;
+    }
+    .main__search {
+        width: 100%;
+        max-width: 360px;
+        height: 72px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        background-color: $color-button;
+        transition: all .4s ease;
+        text-decoration: none;
+        @include device(mobile) {
+            margin-top: 100px;
+            margin-bottom: 20px;
+        }
+        &:hover {
+            background-color: $color-button-hover;
+        }
+        span {
+            width: 72px;
+            height: 72px;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+            background-color: rgba(0, 0, 0, 0.08);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:after {
+                content: "";
+                background-image: url('../img/search.svg');
+                width: 20px;
+                height: 20px;
+            }
+        }
+        strong {
+            flex: 1;
+            color: white;
+            text-align: center;
+        }
+    }
+}
+
+// MODAL
+#modal {
+    background-color: #0E0A14EF;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 400ms;
+    .content {
+        color: #fff;
+        width: 420px;
+        .modal__header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 48px;
+            h1 {
+                color: #fff;
+                font-size: 2.2rem;
+                line-height: 2.5rem;                
+            }
+            a {
+                background-image: url("../img/x.svg");
+                width: 20px;
+                height: 20px;
+                display: flex;
+                font-size: 0.01px;
+            }
+        }
+        .modal__form {
+            label {
+                font-size: .8rem;
+                line-height: 1rem;
+                display: block;
+                margin-bottom: 8px;
+            }
+            input {
+                flex: 1;
+                background-color: $color-background-primary;
+                border-radius: 8px 0 0 8px;
+                border: 0;
+                padding: 16px 24px;
+                font-size: 1rem;
+                color: $color-secondary;
+            }
+            button {
+                width: 72px;
+                height: 72px;
+                background-color: $color-button;
+                border: 0;
+                border-radius: 0 8px 8px 0;
+                transition: all .3s ease;
+                cursor: pointer;
+                &:hover {
+                    background-color: $color-button-hover;
+                }
+
+            }
+            .field {
+                display: flex;
+            }
+        }
+    }    
+}
+
+#modal.hide {
+    display: none;
+}

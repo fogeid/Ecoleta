@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ecoleta (NLW)</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <div id="page-home">
+            <div class="content">
+                <header class="header__main">
+                    <div class="header__logo">
+                        <img src="assets/img/logo.svg" alt="">
+                    </div>
+                    <div class="header__register">
+                        <a href="/create-point">
+                            <span></span>
+                            Cadastre um ponto de coleta
+                        </a>
+                    </div>
+                </header>
+
+                <section class="main">
+                    <h1 class="main__title">Seu marketplace de coleta de resíduos.</h1>
+                    <p class="main__description">Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</p>
+                    <a class="main__search" href="#">
+                        <span></span>
+                        <strong>Pesquisar pontos de coleta</strong>
+                    </a>
+                </section>
+            </div>
+        </div>
+
+        <div id="modal" class="hide">
+            <div class="content">
+                <div class="modal__header">
+                    <h1>Pontos de Coleta</h1>
+                    <a href="">Fechar</a>
+                </div>
+                <form class="modal__form" action="">
+                    <label for="search">Cidade</label>
+                    <div class="modal__search field">
+                        <input
+                        class="modal__input"
+                        type="text"
+                        name="search"
+                        placeholder="Pesquise por cidade">
+
+                        <button class="modal__btn">
+                            <img src="assets/img/search.svg" alt="Buscar">
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script src="assets/js/home.js"></script>
+    </body>
+</html>
